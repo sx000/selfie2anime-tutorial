@@ -191,8 +191,8 @@ def main():
     args = parse_args()
 
     # Change to fullscreen
-    cv2.namedWindow('Output', cv2.WND_PROP_FULLSCREEN)
-    cv2.setWindowProperty('Output', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+#   cv2.namedWindow('Output', cv2.WND_PROP_FULLSCREEN)
+#    cv2.setWindowProperty('Output', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
     if args is None:
         exit()
